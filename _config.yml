@@ -1,7 +1,7 @@
 # Site settings
 title: Blog programistyczno-artystyczny | programista-artysta.pl # site title
 description: >- # site description
-Blog dla każdego programisty, zwłaszcza jeśli zaczynasz przygodę z programowaniem. Przedstawię swoją drogę od klepacza kodu do świadomego programisty. Jestem dopiero na początku tej drogi, ale każdy znajdzie tu coś dla siebie.
+  Blog dla każdego programisty, zwłaszcza jeśli zaczynasz przygodę z programowaniem. Przedstawię swoją drogę od klepacza kodu do świadomego programisty. Jestem dopiero na początku tej drogi, ale każdy znajdzie tu coś dla siebie.
 lang: pl-PL # default lang
 timezone: Europe/Warsaw # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
