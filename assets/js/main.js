@@ -1,17 +1,31 @@
-$(document).ready(function() {
-  // main menu toggle
-  var toggleButton = document.getElementById("menu-toggle");
-  var menu = document.getElementById("primary-nav");
+(() => {
+  // Theme switch
+  const body = document.body;
+  const lamp = document.getElementById("mode");
 
-  if (toggleButton && menu) {
-    toggleButton.addEventListener("click", function() {
-      menu.classList.toggle("js-menu-is-open");
-    });
-  }
+  const toggleTheme = (state) => {
+    if (state === "dark") {
+      localStorage.setItem("theme", "light");
+      body.removeAttribute("data-theme");
+    } else if (state === "light") {
+      localStorage.setItem("theme", "dark");
+      body.setAttribute("data-theme", "dark");
+    } else {
+      initTheme(state);
+    }
+  };
 
-  // initialize smooth scroll
-  $("a").smoothScroll({ offset: -20 });
+  lamp.addEventListener("click", () =>
+    toggleTheme(localStorage.getItem("theme"))
+  );
 
-  // add lightbox class to all image links
-  $("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']").attr("data-lity", "");
-});
+  // Blur the content when the menu is open
+  const cbox = document.getElementById("menu-trigger");
+
+  cbox.addEventListener("change", function () {
+    const area = document.querySelector(".wrapper");
+    this.checked
+      ? area.classList.add("blurry")
+      : area.classList.remove("blurry");
+  });
+})();
