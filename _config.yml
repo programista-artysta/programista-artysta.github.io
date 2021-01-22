@@ -1,8 +1,7 @@
 # Site settings
-title: Klise Theme # site title
+title: Blog programistyczno-artystyczny | programista-artysta.pl # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+  Blog dla każdego programisty, zwłaszcza jeśli zaczynasz przygodę z programowaniem. Przedstawię swoją drogę od klepacza kodu do świadomego programisty. Jestem dopiero na początku tej drogi, ale każdy znajdzie tu coś dla siebie.
 lang: pl-PL # default lang
 timezone: Europe/Warsaw # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -23,10 +22,10 @@ author:
   avatar: https://media-exp1.licdn.com/dms/image/C4E03AQFOMG9Un896NQ/profile-displayphoto-shrink_200_200/0/1517521903534?e=1616025600&v=beta&t=fcKLUeIDpQpaWHdNDm7SsgAs0ZY-2onaIQPyZQAJQec # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+url: "https://www.programista-artysyta.pl" #
 baseurl:
 permalink: /:title/
-google_analytics: # leave it blank if not wish
+google_analytics: UA-71525821-2
 fb_appid:
 
 # Collection setting
