@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Mikołaj Jakubowski # author name
   bio: >- # tell to the world
-    Programista niejako z przypadku. Przechodzący swoją drogę od klepacza kodu do świadomego developera.
+    Programista z przypadku. Przechodzący swoją drogę od klepacza kodu do świadomego developera.
   username: username # general username
   github: github_username # github username
   instagram: mikolaj_rysuje_animuje
