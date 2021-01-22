@@ -10,9 +10,21 @@
 #  url: /archive/
 #  external: false
 
+- title: ksiązki
+  url: /books
+  external: false
+
+#- title: wystąpienia
+#  url: /books
+#  external: false
+
 - title: o mnie
   url: /about/
   external: false # set true if you using external link, see below
+
+- title: kontakt
+  url: /search
+  external: false
 
 # Example:
 # - title: github
